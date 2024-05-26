@@ -64,10 +64,6 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
 
 ## Installing and visualising the environment
 
-Please ensure that you have a working
-[MuJoCo200 installation](https://www.roboti.us/download.html) and a valid
-[MuJoCo licence](https://www.roboti.us/license.html).
-
 1. Clone this repository:
 
    ```bash
@@ -92,12 +88,6 @@ Please ensure that you have a working
 
    ```bash
    python -m rgb_stacking.main
-   ```
-
-Step 2-4 can also be done by running the run.sh script:
-
-   ```bash
-   ./run.sh
    ```
 
 By default, this loads the environment with a random test triplet and starts the
