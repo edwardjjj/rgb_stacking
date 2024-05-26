@@ -71,15 +71,15 @@ Please ensure that you have a working
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/deepmind/rgb_stacking.git
+   git clone https://github.com/edwardjjj/rgb_stacking
    cd rgb_stacking
    ```
 
 2. Prepare a Python 3 environment - venv is recommended.
 
    ```bash
-   python3 -m venv rgb_stacking_venv
-   source rgb_stacking_venv/bin/activate
+      conda create env -n <env-name> python==3.9 -y
+      conda activate <env-name>
    ```
 
 3. Install dependencies:
